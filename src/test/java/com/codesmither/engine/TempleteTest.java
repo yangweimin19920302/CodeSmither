@@ -13,7 +13,7 @@ public class TempleteTest {
     @Test
     public void Templete() {
         try {
-            Config config = ConfigFactory.loadConfig("config.properties");
+            Config config = ConfigFactory.loadConfig("application.properties");
             Engine engine = new Engine(config);
             engine.doInBackground(System.out);
         } catch (Exception e) {
