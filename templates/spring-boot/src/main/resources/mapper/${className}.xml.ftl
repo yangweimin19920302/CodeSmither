@@ -55,7 +55,7 @@
         </#if>
         <#if column_has_next>,</#if>
     </#list>
-        from ${table.name} ${r"${order}"} limit ${r"${start}"},${r"${size}"}
+        from ${table.name} limit ${r"${start}"},${r"${size}"}
     </select>
 
 </mapper>
